@@ -1,2 +1,2 @@
- TimetableManagementSystem
+ CourseManagementSystem
 course project for oop
