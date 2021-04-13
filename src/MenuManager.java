@@ -12,7 +12,7 @@ public class MenuManager {
 			System.out.println("1. Add Course");
 			System.out.println("2. Delete Course");
 			System.out.println("3. Edit Course");
-			System.out.println("4. View Course");
+			System.out.println("4. View Courses");
 			System.out.println("5. Exit");
 			System.out.println("Select one number between 1-5:");
 			num = input.nextInt();
@@ -26,7 +26,7 @@ public class MenuManager {
 				courseManager.editCourse();
 			}
 			else if (num == 4) {
-				courseManager.viewCourse();
+				courseManager.viewCourses();
 			}
 			else {
 				continue;
